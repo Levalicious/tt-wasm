@@ -21,4 +21,4 @@ jobs:
     - name: Build
       run: wasm-pack build --target nodejs
     - name: Test
-      run: wasm-pack test
+      run: wasm-pack test --node
